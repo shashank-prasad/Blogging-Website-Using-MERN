@@ -2,7 +2,7 @@ const mongoose=require('mongoose');
 
 const PostData =require('./postsData');
 
-mongoose.connect("mongodb+srv://shashank:XeDTrqnBlJCdoQ19@cluster0.ezwyj.mongodb.net/BlogPosts?retryWrites=true&w=majority",
+mongoose.connect("<Mongo DB altas connection link>",
 { useNewUrlParser: true, useUnifiedTopology: true }
 ).then(()=>{
     console.log("Connected to database");
